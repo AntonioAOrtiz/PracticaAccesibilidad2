@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Últimos envíos · PEC2 HTML y CSS</title>
+	<title>Últimos envíos</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
@@ -9,7 +9,7 @@
 <body class="ultimos-envios">
 	<header>
 		<div>
-			<a href="index.html"><img src="img/logo.png" alt="logotipo UOC"></a>
+			<a href="index.html"><img src="img/logo.png" alt="logotipo UOC" longdesc="ouc.html"></a>
 		</div>
 		<nav>
 			<ul>
@@ -21,16 +21,16 @@
 	</header>
 	<div class="clear"></div>
 	<section class="tabla-envios">
-		<h1>O2: últimos envíos al repositorio</h1>
+		<h1 role="heading" aria-level="1">O2: últimos envíos al repositorio</h1>
 		<table>
 			<thead>
 				<tr>
-					<th><i class="fas fa-book-reader"></i>Título</th>
-					<th><i class="fas fa-user-edit"></i>Autor</th>
-					<th><i class="fas fa-calendar-alt"></i>Publicación</th>
-					<th><i class="fas fa-briefcase"></i>Editorial</th>
-					<th><i class="fas fa-language"></i>Idioma</th>
-					<th><i class="fas fa-globe"></i>URI</th>
+					<th scope="col"><i class="fas fa-book-reader" aria-hidden="true" title="título"></i>Título</th>
+					<th scope="col"><i class="fas fa-user-edit" aria-hidden="true" title="autor"></i>Autor</th>
+					<th scope="col"><i class="fas fa-calendar-alt" aria-hidden="true" title="publicación"></i>Publicación</th>
+					<th scope="col"><i class="fas fa-briefcase" aria-hidden="true" title="editorial"></i>Editorial</th>
+					<th scope="col"><i class="fas fa-language" aria-hidden="true" title="idioma"></i>Idioma</th>
+					<th scope="col"><i class="fas fa-globe" aria-hidden="true" title="uri"></i>URI</th>
 				</tr>
 			</thead>
 			<tbody>
